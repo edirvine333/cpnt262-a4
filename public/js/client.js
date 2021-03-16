@@ -1,6 +1,6 @@
 'use strict';  
 
-const endpoint = 'https://localhost:3000/api/v0/gallery';   
+const endpoint = 'localhost:3000/api/v0/gallery';   
 
 fetch(endpoint)                           
 
