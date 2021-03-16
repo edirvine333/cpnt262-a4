@@ -47,6 +47,6 @@ app.listen(port, function () {
 
 //  ***************************************************  NOTES  ***************************************************************
 //
-//  1.  Using .js extension even though it is not necssary for reference so that I know that it is a file path
+//  1.  Using .js extension, even though it is not necssary, for reference so that I know that it is a file path
 //
 //  ***************************************************************************************************************************
