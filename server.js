@@ -7,19 +7,23 @@ const dotenv = require('dotenv').config()
 const cors = require('cors')
 
 //  Load custom modules
-const route = require('./routes/api/v0.js')
+const route1 = require('./routes/api/v0.js')
+const route2 = require('./routes/index.js')
 
 //  Assign the express() function
 const app = express()
+
+app.set('view engine', 'ejs');
 
 //  *************************************  MIDDLEWARE  ******************************************
 
 app.use(cors())
 
-//  Serves the static pages
+//  Serves the static page
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.use('/', route)
+app.use('/', route1)
+app.use('/', route2)
 
 //  Error handling
 app.use(function (req, res) {
@@ -41,3 +45,8 @@ app.listen(port, function () {
 //
 //  ***************************************************************************************************************************
 
+//  ***************************************************  NOTES  ***************************************************************
+//
+//  1.  Using .js extension even though it is not necssary for reference so that I know that it is a file path
+//
+//  ***************************************************************************************************************************
