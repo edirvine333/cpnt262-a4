@@ -16,7 +16,7 @@ const app = express()
 app.use(cors())
 
 //  Serves the static pages
-//  app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', route)
 
