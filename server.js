@@ -13,7 +13,7 @@ const route = require('./routes/api/v0.js')
 const app = express()
 
 //  *************************************  MIDDLEWARE  ******************************************
-app.use(cors())
+//  app.use(cors())
 
 //  Serves the static pages
 app.use(express.static(path.join(__dirname, 'public')))
