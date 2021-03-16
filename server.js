@@ -21,6 +21,16 @@ app.set('view engine', 'ejs');
 //  must be invoked in order to pull data from Heroku 
 app.use(cors())
 
+//  Sets the global template variables
+app.use( function (req, res, next) {
+  res.locals = {
+    siteHeading: "CPNT262 - ASSIGNMENT 4",
+    subHeading: "JSON Gallery Endpoint with Fetch",
+    copyright: "Ed Irvine"
+  }
+  next()
+})
+
 //  Static page handler
 app.use(express.static(path.join(__dirname, 'public')))
 

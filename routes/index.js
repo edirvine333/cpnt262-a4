@@ -3,15 +3,15 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', function (req, res) {
-  res.render('pages/index.ejs') 
+  res.render('pages/index.ejs', {pageTitle: "CPNT262-A4 Home Page"}) 
 })
 
 router.get('/login', function (req, res) {
-  res.render('pages/login.ejs')
+  res.render('pages/login.ejs', {pageTitle: "CPNT262-A4 Login Page"})
 })
 
 router.get('/register', function (req, res) {
-  res.render('pages/register.ejs')
+  res.render('pages/register.ejs', {pageTitle: "CPNT262-A4 Registration Page"})
 })
 
 module.exports = router

@@ -13,7 +13,8 @@ Repo Maintainer: Ed Irvine
 ## NOTES  
 
 1. I used the .js and .ejs extensions, even though they are not required, as I want to be able to recognize later on that they are files, not arguments being passed.  
- 
+2. Using semi-colons for client-side Javascript and no semi-colons for server-side Javascript.  
+
 
 ## ATTRIBUTIONS  
 
@@ -22,4 +23,4 @@ Repo Maintainer: Ed Irvine
 
 - Sample Code Activity => https://github.com/sait-wbdv/sample-code/tree/master/backend/express  
 
--  Express Docs - res.render() => http://expressjs.com/en/api.html#res.render  
+- Express Docs - res.render() => http://expressjs.com/en/api.html#res.render  
