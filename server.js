@@ -2,9 +2,9 @@
 const path = require('path')
 
 //  Load npm modules
-const express = require('express')
-const dotenv = require('dotenv').config()
-const cors = require('cors')
+// const express = require('express')
+// const dotenv = require('dotenv').config()
+// const cors = require('cors')
 
 //  Load custom modules
 const route = require('./routes/api/v0.js')
