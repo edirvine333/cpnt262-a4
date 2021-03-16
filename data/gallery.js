@@ -1,4 +1,4 @@
-const gallery = [                                              
+gallery = [                                              
   {
     id: 0,
     title: "Original Image",

@@ -1,7 +1,6 @@
 'use strict';  
 
-// const endpoint = 'https://json-express.herokuapp.com/api/v0/definitions';      
-const endpoint = '';
+const endpoint = 'https://sait-wbdv-cpnt262-a4.herokuapp.com/api/v0/gallery';   
 
 fetch(endpoint)                           
 
@@ -11,7 +10,9 @@ fetch(endpoint)
         throw new Error('Not 200 OK');  
       }                                 
       
-      console.log(response.url);
+      let main = document.querySelector('main');  
+    
+      main.innerHTML = gallery[0].pathURL;
 
       return response.json(); 
       
@@ -19,9 +20,7 @@ fetch(endpoint)
 
   .then(function(gallery) {
    
-    let main = document.querySelector("main");  
     
-    main.innerhtml = gallery[0];
 
     // gallery.forEach(insert_img);      
     
@@ -31,8 +30,8 @@ fetch(endpoint)
     
   })
 
-  .catch(function(err) {              
-    console.log(err)
+  .catch(function(error) {              
+    console.log(error)
   });
 
 
