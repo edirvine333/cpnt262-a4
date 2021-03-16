@@ -6,21 +6,19 @@ fetch(endpoint)
 
   .then(function(response) {                    
                                         
-      if(!response.ok) {                
-        throw new Error('Not 200 OK');  
-      }                                 
+    if(!response.ok) {                
+      throw new Error('Not 200 OK');  
+    }                                 
       
-      let main = document.querySelector('main');  
-    
-      main.innerHTML = gallery[0].pathURL;
-
-      return response.json(); 
+    return response.json(); 
       
   })                                  
 
   .then(function(gallery) {
    
+    let main = document.querySelector('main');  
     
+    main.innerHTML = gallery[0].pathURL;
 
     // gallery.forEach(insert_img);      
     
