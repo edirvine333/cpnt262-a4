@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 
 app.use(cors())
 
-//  Serves the static page
+//  Serves the static pages
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', route1)

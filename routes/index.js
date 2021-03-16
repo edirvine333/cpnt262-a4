@@ -3,21 +3,15 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', function (req, res) {
-
-  res.render('pages/index.ejs')
-  
+  res.render('pages/index.ejs') 
 })
 
 router.get('/login', function (req, res) {
-
   res.render('pages/login.ejs')
-
 })
 
 router.get('/register', function (req, res) {
-
   res.render('pages/register.ejs')
-
 })
 
 module.exports = router
