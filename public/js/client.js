@@ -18,13 +18,11 @@ fetch(endpoint)
    
     let main = document.querySelector('main');  
     
-    main.innerHTML = gallery[0].pathURL;
-
-    // gallery.forEach(insert_img);      
+    gallery.forEach(insert_img);      
     
-    // function insert_img(item, index) { 
-    //   main.innerHTML = main.innerHTML + `<img src="${gallery[index].pathURL}" alt="a broken image"></img>`;
-    // };
+    function insert_img(item, index) { 
+      main.innerHTML = main.innerHTML + `<img src="${gallery[index].pathURL}" alt="a broken image"></img>`;
+    };
     
   })
 
