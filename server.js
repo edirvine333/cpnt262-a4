@@ -13,19 +13,22 @@ const route2 = require('./routes/index.js')
 //  Assign the express() function
 const app = express()
 
+//  Set the view engine parameter to 'ejs"
 app.set('view engine', 'ejs');
 
 //  *************************************  MIDDLEWARE  ******************************************
 
+//  must be invoked in order to pull data from Heroku 
 app.use(cors())
 
-//  Serves the static pages
+//  Static page handler
 app.use(express.static(path.join(__dirname, 'public')))
 
+//  Route handlers
 app.use('/', route1)
 app.use('/', route2)
 
-//  Error handling
+//  Error handler
 app.use(function (req, res) {
   res.status(404)
   res.sendFile(__dirname +'/public/404.html')
@@ -47,6 +50,5 @@ app.listen(port, function () {
 
 //  ***************************************************  NOTES  ***************************************************************
 //
-//  1.  Using .js extension, even though it is not necssary, for reference so that I know that it is a file path
-//
+//  
 //  ***************************************************************************************************************************
