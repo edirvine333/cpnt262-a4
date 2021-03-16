@@ -7,13 +7,13 @@ const dotenv = require('dotenv').config()
 const cors = require('cors')
 
 //  Load custom modules
-const route1 = require('./routes/api/v0.js')
-const route2 = require('./routes/index.js')
+const route_one = require('./routes/api/v0.js')
+const route_two = require('./routes/index.js')
 
 //  Assign the express() function
 const app = express()
 
-//  Set the view engine parameter to 'ejs"
+//  Set the view engine to 'ejs"
 app.set('view engine', 'ejs');
 
 //  *************************************  MIDDLEWARE  ******************************************
@@ -25,8 +25,8 @@ app.use(cors())
 app.use(express.static(path.join(__dirname, 'public')))
 
 //  Route handlers
-app.use('/', route1)
-app.use('/', route2)
+app.use('/', route_one)
+app.use('/', route_two)
 
 //  Error handler
 app.use(function (req, res) {
