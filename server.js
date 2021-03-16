@@ -30,7 +30,7 @@ app.use(function (req, res) {
 
 const port = process.env.PORT || 3000
 
-//  Listening on port 3000
+//  Listening block
 app.listen(port, function () {
   console.log(`Listening on port: ${port}`)
 })

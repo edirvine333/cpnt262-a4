@@ -1,6 +1,6 @@
 'use strict';  
 
-const endpoint = 'localhost:3000/api/v0/gallery';   
+const endpoint = 'https://sait-wbdv-cpnt262-a4/api/v0/gallery';   
 
 fetch(endpoint)                           
 
