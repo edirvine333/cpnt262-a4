@@ -2,8 +2,8 @@
 
 Date:  March 16,2021  
 
-GitHub Repo: [cpnt262-a4]()  
-Heroku App: [sait-wbdv-cpnt262-a4]()   
+GitHub Repo: [cpnt262-a4](https://github.com/edirvine333/cpnt262-a4)    
+Heroku App: [sait-wbdv-cpnt262-a4](https://sait-wbdv-cpnt262-a4.herokuapp.com/api/v0/gallery)    
 
 Repo Owner: Ed Irvine  
 Repo Maintainer: Ed Irvine  
