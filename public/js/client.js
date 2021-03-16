@@ -1,6 +1,6 @@
 'use strict';  
 
-const endpoint = 'https://sait-wbdv-cpnt262-a4/api/v0/gallery';   
+const endpoint = 'https://sait-wbdv-cpnt262-a4.herokuapp.com/api/v0/gallery';   
 
 fetch(endpoint)                           
 
