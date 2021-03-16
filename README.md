@@ -3,7 +3,9 @@
 Date:  March 16,2021  
 
 GitHub Repo: [cpnt262-a4](https://github.com/edirvine333/cpnt262-a4)    
-Heroku App: [sait-wbdv-cpnt262-a4](https://sait-wbdv-cpnt262-a4.herokuapp.com/api/v0/gallery)    
+Heroku App: [sait-wbdv-cpnt262-a4](https://sait-wbdv-cpnt262-a4.herokuapp.com/)  
+Heroku API Link: https://sait-wbdv-cpnt262-a4.herokuapp.com/api/v0/gallery  
+
 
 Repo Owner: Ed Irvine  
 Repo Maintainer: Ed Irvine  
@@ -11,8 +13,7 @@ Repo Maintainer: Ed Irvine
 ## NOTES  
 
 1. I used the .js and .ejs extensions, even though they are not required, as I want to be able to recognize later on that they are files, not arguments being passed.  
-
-2. 
+ 
 
 ## ATTRIBUTIONS  
 
