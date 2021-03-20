@@ -1,6 +1,6 @@
 # CPNT 262 - ASSIGNMENT 4 - JSON GALLERY ENDPOINT WITH FETCH  
 
-Date:  March 16,2021  
+Date:  March 20,2021  
 
 GitHub Repo: [cpnt262-a4](https://github.com/edirvine333/cpnt262-a4)    
 Heroku App: [sait-wbdv-cpnt262-a4](https://sait-wbdv-cpnt262-a4.herokuapp.com/)  
@@ -12,9 +12,9 @@ Repo Maintainer: Ed Irvine
 
 ## NOTES  
 
-1. I used the .js and .ejs extensions, even though they are not required, as I want to be able to recognize later on that they are files, not arguments being passed.  
-2. Using semi-colons for client-side Javascript and no semi-colons for server-side Javascript.  
-
+1. I used the .js and .ejs extensions, even though they are not required, as I want to be able to recognize later on that they are files, not standard arguments being passed.  
+2. Using semi-colons for client-side Javascript and no semi-colons for server-side Javascript.
+3. No CSS used, as the focus of this assignment is Javascript using fetch() and routing modules.  
 
 ## ATTRIBUTIONS  
 
